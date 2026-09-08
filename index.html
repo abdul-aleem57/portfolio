@@ -3,15 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdul Aleem | Portfolio</title>
+  <title>Abdul Aleem — Software Engineer</title>
+  
+  <!-- Modern Typography: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Start designing your portfolio here -->
-  <main id="app">
-    <h1>Abdul Aleem</h1>
-    <p>Redesign in progress...</p>
+  <!-- Background 3D Astra Canvas -->
+  <canvas id="astra-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="header">
+    <div class="nav-left">
+      <a href="#" class="logo">
+        <span class="logo-symbol">✦</span>
+        <span class="logo-text">Abdul Aleem</span>
+      </a>
+    </div>
+
+    <nav class="nav-center">
+      <a href="#about" class="nav-item">About</a>
+      <a href="#skills" class="nav-item">Skills</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <a href="https://github.com/abdul-aleem57" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/abdul-aleem-5921b925a/" target="_blank" rel="noopener" class="icon-link" title="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="mailto:aleemobjects@gmail.com" class="pill-btn">
+        <span>Get in Touch</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Astra Hero Centerpiece -->
+  <main class="hero-container">
+    
+    <!-- Left Bold Typography -->
+    <div class="hero-title-side title-left">
+      <h1 class="split-title">Abdul</h1>
+      <span class="subtitle-tag">Software Engineer</span>
+    </div>
+
+    <!-- Center Interactive Prompt / Status -->
+    <div class="hero-center-badge">
+      <div class="status-indicator">
+        <span class="pulse-dot"></span>
+        <span>Interactive 3D Constellation — Drag or Hover</span>
+      </div>
+    </div>
+
+    <!-- Right Bold Typography -->
+    <div class="hero-title-side title-right">
+      <h1 class="split-title">Aleem</h1>
+      <span class="subtitle-tag">Frontend & Creative Dev</span>
+    </div>
+
+    <!-- Bottom Action Ribbon -->
+    <div class="hero-footer-ribbon">
+      <div class="stat-item">
+        <span class="stat-number">3+</span>
+        <span class="stat-desc">Years Experience</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-number">15+</span>
+        <span class="stat-desc">Crafted Projects</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-desc">Clean Architecture</span>
+      </div>
+    </div>
+
   </main>
 
   <script src="script.js"></script>
